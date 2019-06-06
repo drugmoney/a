@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/swiper.min.css">
+	<link rel="stylesheet" href="./css/slider-master.css">
+	<script src="./js/swiper.min.js"></script>
+	<title>sliders</title>
+</head>
+<body>
+	<div class="container">
+		<img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_01.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_02.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_03.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_04.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_05.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_06.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/imgrc0066643786.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_08.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_09.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205h/es-s205h_11.jpg">
+        <img src="https://image.rakuten.co.jp/sptry/cabinet/es-s205r/es-s205r_13.jpg">
+	</div>
+	<script>
+
+$("iframe").on("load", function(){
+    try {
+        $(this).height(this.contentWindow.document.documentElement.scrollHeight);
+    } catch (e) {
+    }
+});
+$("iframe").trigger("load");
+
+	</script>
+</body>
+</html>
